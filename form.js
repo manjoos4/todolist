@@ -72,8 +72,7 @@ xhttp.onreadystatechange = function(){
                if(totalchecked===5){
                 setTimeout(function(){
                  resolve()
-                 {alert("Congrats ! 5 Tasks have been Successfully completed");
-            window.location.reload();}
+                 alert("Congrats ! 5 Tasks have been Successfully completed")
 
                },200)
           
